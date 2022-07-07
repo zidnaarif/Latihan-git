@@ -51,10 +51,10 @@ body {
 
 /* hero */
 #hero {
-  background: url('/assets/img/hero-img-bg.jpg');
-  background-size : 100%;
+  background: url(../img/hero-img-bg.jpg);
   height: 100vh;
-  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero-tagline h1 {
@@ -82,7 +82,7 @@ body {
   font-weight: 500;
 }
 
-/* Service Card  #88a593 */
+/* Service Card */
 #service {
   padding: 100px 0;
   background-color: #cbdbd1;
@@ -91,7 +91,7 @@ body {
 h2 {
   font-size: 48px;
   font-weight: 500;
-  color: #59724b;
+  color: #304025;
 }
 
 .subtitle {
@@ -136,4 +136,52 @@ h2 {
   border-color: #59724b;
   border-width: 2px;
   transition: 200ms;
+}
+
+/* search */
+#search {
+  background-image: url(../img/search-bg.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#search h2 {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  margin: 40px 0px 0px 0px;
+}
+
+#search p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  margin-bottom: 40px;
+}
+
+#search .form-control {
+  margin: 0px 10px 40px 10px;
+}
+
+.button-search {
+  margin: 0px 0px 40px 10px;
+  width: 133px;
+  height: 40px;
+  color: white;
+  background-color: #738a65;
+  border: none;
+  font-size: 16px;
+  font-weight: 400 ;
+}
+
+#search .row {
+  border-radius: 18px;
+  background-color: rgba(0, 0, 0, 0.3);
 }
