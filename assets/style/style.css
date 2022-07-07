@@ -1,5 +1,91 @@
+:root {
+  --pr-color: #6a855a
+}
+
+body {
+  background-color: #f3fff4;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar-nav {
+  font-size: 16px;
+  font-weight: 500;
+  color: #59724b;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 20px;
+  color: #304025;
+}
+
+.nav-link {
+  font-size: 16px;  
+  color: #59724b;
+}
+
+.nav-link.active {
+  color: #304025;
+  font-weight: 500;
+}
+
+.button-primary {
+  width: 133px;
+  height: 40px;
+  background-color: transparent;
+  color: #304025;
+  border: none;
+  font-size: 16px;
+  font-weight: 500 ;
+}
+
+.button-secondary {
+  width: 133px;
+  height: 40px;
+  color: white;
+  background-color: #59724b;
+  border: none;
+  font-size: 16px;
+  font-weight: 400 ;
+}
+
+/* hero */
+#hero {
+  background: url('/assets/img/hero-img-bg.jpg');
+  background-size : 100%;
+  height: 100vh;
+  width: 100%;
+}
+
+.hero-tagline h1 {
+  color: #304025;
+  font-weight: 500;
+  font-size: 50px;
+}
+
+.hero-tagline p {
+  color: #304025;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  line-height: 26px;
+  width: 85%;
+}
+
+.button-lg-primary {
+  color: #304025;
+  background-color: white;
+  width: 200px;
+  height: 60px;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
 /* Container holding the image and the text */
 .imgcontainer {
+    max-width: 100%;
+    height: auto;
     position: relative;
     text-align: center;
     color: white;
