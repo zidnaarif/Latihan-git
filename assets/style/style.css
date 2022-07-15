@@ -86,6 +86,7 @@ body {
 #service {
   padding: 100px 0;
   background-color: #cbdbd1;
+  height: 100vh;
 }
 
 h2 {
@@ -176,7 +177,6 @@ h2 {
   height: 40px;
   color: white;
   background-color: #738a65;
-  border: none;
   font-size: 16px;
   font-weight: 400 ;
 }
@@ -184,4 +184,87 @@ h2 {
 #search .row {
   border-radius: 18px;
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* card design */
+#ourdesign {
+  background-color: #cbdbd1;
+  padding: 40px;
+}
+
+#ourdesign h2 {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 72px;
+  letter-spacing: 0em;
+}
+
+.card-design img {
+  max-width: 300px;
+}
+
+.card-design h5 {
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.card-design span {
+  color: white;
+}
+
+.card-design .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+}
+
+.card-design .overlay:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  transition: all ease-in-out .3s;
+}
+
+.card-design2 img {
+  max-width: 600px;
+}
+
+.card-design2 h5 {
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.card-design2 span {
+  color: white;
+}
+
+.card-design2 .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+}
+
+.card-design2 .overlay:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  transition: all ease-in-out .3s;
+}
+
+.btn-left {
+  border: none;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  color: white;
+  background-color: #59724b;
+  padding: 0;
+}
+
+.btn-right {
+  border: none;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  color: white;
+  background-color: #59724b;
+  padding: 0;
 }
