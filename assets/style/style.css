@@ -189,7 +189,7 @@ h2 {
 /* card design */
 #ourdesign {
   background-color: #cbdbd1;
-  padding: 40px;
+  padding: 40px 0 75px 0;
 }
 
 #ourdesign h2 {
@@ -267,4 +267,74 @@ h2 {
   color: white;
   background-color: #59724b;
   padding: 0;
+}
+
+/* contact */
+#contact {
+  background-image: url(../img/armchair-green.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+#contact .overlay { 
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#contact h3 {
+  color: white;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 60px;
+}
+
+.kontak h6 {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  margin: 18px 0 14px 0;
+}
+
+.kontak img {
+  max-height: 22px;
+  filter: invert(100%);
+}
+
+.sosmed img {
+  max-height: 36px;
+  filter: invert(100%);
+}
+
+.kontak a {
+  color: white;
+  font-size: 16px;
+  line-height: 18px;
+  margin-left: 18px;
+  text-decoration: none;
+}
+
+.card-contact {
+  width: 100%;
+  background-color: white;
+  border-radius: 5px;
+  padding: 40px;
+}
+
+.form-control {
+  background: #d5d5d5;
+}
+
+.form-floating label {
+  color: #a0a0a0;
+}
+
+.btn-submit {
+  width: 133px;
+  height: 40px;
+  color: white;
+  background-color: #59724b;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
 }
