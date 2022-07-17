@@ -45,7 +45,7 @@ nav {
   color: #304025;
   border: none;
   font-size: 16px;
-  font-weight: 500 ;
+  font-weight: 500;
 }
 
 .button-secondary {
@@ -55,7 +55,7 @@ nav {
   background-color: #59724b;
   border: none;
   font-size: 16px;
-  font-weight: 400 ;
+  font-weight: 400;
 }
 
 /* hero */
@@ -186,8 +186,9 @@ h2 {
   height: 40px;
   color: white;
   background-color: #738a65;
+  border: none;
   font-size: 16px;
-  font-weight: 400 ;
+  font-weight: 400;
 }
 
 #search .row {
@@ -323,6 +324,10 @@ h2 {
   text-decoration: none;
 }
 
+.kontak .mbb {
+  margin-bottom: 10px;
+}
+
 .card-contact {
   width: 100%;
   background-color: white;
@@ -378,17 +383,4 @@ footer a:hover {
 
 .copyright p {
   font-size: 12px;
-}
-
-/* responsive */
-@media screen and (max-width: 765px) {
-  
-}
-
-@media screen and (max-width: 576px) {
-
-}
-
-@media screen and (max-width: 350px) {
-
 }
