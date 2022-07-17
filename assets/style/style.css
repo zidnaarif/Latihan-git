@@ -1,10 +1,19 @@
-:root {
-  --pr-color: #6a855a
-}
-
 body {
   background-color: #f3fff4;
   font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  z-index: 99;
+}
+
+.nav-color {
+  background-color: #9ab58a;
+  transition: all ease-in-out 0.3s;
+}
+
+.bg-transparent {
+  transition: all ease-in-out 0.3s;
 }
 
 .navbar-nav {
@@ -369,4 +378,17 @@ footer a:hover {
 
 .copyright p {
   font-size: 12px;
+}
+
+/* responsive */
+@media screen and (max-width: 765px) {
+  
+}
+
+@media screen and (max-width: 576px) {
+
+}
+
+@media screen and (max-width: 350px) {
+
 }
